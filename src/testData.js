@@ -1,7 +1,7 @@
 // Test data generator for weight tracker
 // Set ENABLE_TEST_DATA to false to disable test data
 
-export const ENABLE_TEST_DATA = true;
+export const ENABLE_TEST_DATA = false;
 
 export const generateTestData = () => {
   if (!ENABLE_TEST_DATA) return [];
