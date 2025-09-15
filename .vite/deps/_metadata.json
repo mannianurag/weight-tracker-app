@@ -2,7 +2,57 @@
   "hash": "4a846280",
   "configHash": "2869f6f9",
   "lockfileHash": "b3a1fd42",
-  "browserHash": "13e49e4e",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "bb8afbbe",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "033936c5",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "43ec2141",
+      "needsInterop": true
+    },
+    "react-chartjs-2": {
+      "src": "../../node_modules/react-chartjs-2/dist/index.js",
+      "file": "react-chartjs-2.js",
+      "fileHash": "bd343769",
+      "needsInterop": false
+    },
+    "chart.js": {
+      "src": "../../node_modules/chart.js/dist/chart.js",
+      "file": "chart__js.js",
+      "fileHash": "6e01d336",
+      "needsInterop": false
+    },
+    "chartjs-plugin-zoom": {
+      "src": "../../node_modules/chartjs-plugin-zoom/dist/chartjs-plugin-zoom.esm.js",
+      "file": "chartjs-plugin-zoom.js",
+      "fileHash": "cd60ee9e",
+      "needsInterop": false
+    },
+    "chartjs-adapter-date-fns": {
+      "src": "../../node_modules/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.esm.js",
+      "file": "chartjs-adapter-date-fns.js",
+      "fileHash": "fde0a7f7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3VDXVL42": {
+      "file": "chunk-3VDXVL42.js"
+    },
+    "chunk-SHHLDTHS": {
+      "file": "chunk-SHHLDTHS.js"
+    },
+    "chunk-BRGI6J6T": {
+      "file": "chunk-BRGI6J6T.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
 }

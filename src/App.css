@@ -1,12 +1,28 @@
 /* Weight Tracker App Styles */
 
 .app-container {
-  width: 500px;
-  /* height: 600px; */
+  width: 100%;
+  max-width: 700px;
+  min-height: 50vh;
   background-color: #222222;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  margin: 0 auto;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .app-container {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    min-height: 50vh;
+    min-height: 50dvh; /* Dynamic viewport height for mobile */
+    min-height: 50svh; /* Small viewport height fallback */
+    box-shadow: none;
+    overflow-y: auto; /* Allow scrolling if content is taller than viewport */
+  }
 }
 
 .header-section {
@@ -15,10 +31,22 @@
   padding: 24px;
 }
 
+@media (max-width: 768px) {
+  .header-section {
+    padding: 16px;
+  }
+}
+
 .current-weight {
   color: white;
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .current-weight {
+    font-size: 2rem;
+  }
 }
 
 .weight-label {
@@ -64,6 +92,13 @@
   background-color: #222222;
   border-radius: 8px;
   /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+}
+
+@media (max-width: 768px) {
+  .input-section {
+    margin: 16px;
+    padding: 16px;
+  }
 }
 
 .section-title {
@@ -155,6 +190,13 @@
   background-color: #151515;
   border-radius: 8px;
   /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+}
+
+@media (max-width: 768px) {
+  .chart-section {
+    margin: 16px;
+    padding: 16px;
+  }
 }
 
 .chart-container {
