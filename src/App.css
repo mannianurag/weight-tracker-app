@@ -1,0 +1,162 @@
+/* Weight Tracker App Styles */
+
+.app-container {
+  width: 500px;
+  /* height: 600px; */
+  background-color: #222222;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.current-weight {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.weight-label {
+  margin-top: 4px;
+  margin-left: 4px;
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.bmi-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.bmi-normal {
+  color: #17b76d;
+}
+
+.bmi-underweight {
+  color: #ff9800;
+}
+
+.bmi-overweight {
+  color: #ff9800;
+}
+
+.bmi-obese {
+  color: #f44336;
+}
+
+.bmi-label {
+  color: #888;
+  font-size: 0.75rem;
+  text-align: right;
+  margin-top: 4px;
+
+}
+
+.input-section {
+  margin: 24px 24px 24px 24px;
+  padding: 24px;
+  background-color: #222222;
+  border-radius: 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+}
+
+.section-title {
+  margin-bottom: 12px;
+  color: white;
+}
+
+.height-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.height-input {
+  width: 70px;
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 14px;
+}
+
+.height-input:focus {
+  outline: none;
+  border-color: #17b76d;
+}
+
+.height-separator {
+  color: #888;
+}
+
+.save-button {
+  background-color: #17b76d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.weight-inputs {
+  display: flex;
+  gap: 8px;
+}
+
+.weight-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 14px;
+}
+
+.weight-input:focus {
+  outline: none;
+  border-color: #17b76d;
+}
+
+.weight-input::placeholder {
+  color: #888;
+}
+
+.log-button {
+  background-color: #17b76d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  cursor: pointer;
+  min-width: 60px;
+}
+
+.log-button:hover {
+  background-color: #45a049;
+}
+
+.chart-section {
+  margin: 24px 24px 24px 24px;
+  padding: 24px;
+  background-color: #151515;
+  border-radius: 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+}
+
+.chart-container {
+  height: 200px;
+}
